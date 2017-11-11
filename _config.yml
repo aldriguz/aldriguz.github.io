@@ -1,12 +1,9 @@
 # Site settings
-title: Blog personal de Alama
+title: Blog personal
 email: aldriguz@outlook.com
 timezone: America/Lima
 description: > # this means to ignore newlines until "baseurl:"
-  Blog personal en proceso de desarrollo, tratará temas sobre
-  ciencias de la computación (computer science), programación,
-  sobre cosas que me gusten y que deseo compartir.
-  Espero disfruten leyendo :)
+  Blog personal en proceso de desarrollo
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://aldriguz.github.io" # the base hostname & protocol for your site
 twitter_username: aldriguz
