@@ -6,9 +6,31 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 11 Nov 2017 00:52:35 -0500</pubDate>
-    <lastBuildDate>Sat, 11 Nov 2017 00:52:35 -0500</lastBuildDate>
+    <pubDate>Sat, 11 Nov 2017 01:26:04 -0500</pubDate>
+    <lastBuildDate>Sat, 11 Nov 2017 01:26:04 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>CrunchBang, una distro de Linux minimalista y optimizada al máximo</title>
+        <description>&lt;p&gt;Una distribución de GNU/Linux que me pareció muy buena es CrunchBang, en primer lugar no está basada en interfaces muy gráficas como Unity, Gnome; sino que utiliza un gestor de ventanas llamado Openbox.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://crunchbang.org/images/screenshot-default-desktop.png&quot; alt=&quot;CrunchBang Captura de Pantalla&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;El uso de recursos a mi parecer está muy bien optimizado y al estar basado en Debian es bastante estable, y como ventaja cuenta con un repositorio de paquetes bastante extenso. Lo pueden encontrar aquí: 
+&lt;a href=&quot;http://crunchbang.org/&quot;&gt;CrunchBang&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Nov 2017 01:09:00 -0500</pubDate>
+        <link>http://localhost:4000/linux/2017/11/11/crunchbang-linux.html</link>
+        <guid isPermaLink="true">http://localhost:4000/linux/2017/11/11/crunchbang-linux.html</guid>
+        
+        <category>linux</category>
+        
+        <category>crunchbang</category>
+        
+        
+        <category>linux</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
