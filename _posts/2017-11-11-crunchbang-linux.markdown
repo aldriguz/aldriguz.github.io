@@ -10,4 +10,7 @@ Una distribución de GNU/Linux que me pareció muy buena es CrunchBang, en prime
 ![CrunchBang Captura de Pantalla]({{ "https://crunchbang.org/images/screenshot-default-desktop.png" }})
 
 El uso de recursos a mi parecer está muy bien optimizado y al estar basado en Debian es bastante estable, y como ventaja cuenta con un repositorio de paquetes bastante extenso. Lo pueden encontrar aquí: 
-<a href="http://crunchbang.org/">CrunchBang</a>
+[CrunchBang](http://crunchbang.org/ "CrunchBang")
+
+
+**Nota:** Actualmente el proyecto es mantenido por la comunidad y cambió su nombre a BunsenLabs Linux
