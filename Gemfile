@@ -1,7 +1,13 @@
-# frozen_string_literal: true
+source 'http://rubygems.org'
 
-source "https://rubygems.org"
-
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-
-# gem "rails"
+group :jekyll_plugins do
+    gem 'github-pages'
+    gem 'html-proofer'
+    gem 'jekyll-admin'
+    gem 'jekyll-fontawesome-svg'
+    gem 'jekyll-seo-tag'
+    gem 'jekyll-gist'
+    gem 'jekyll-feed'
+    gem 'jemoji'
+    gem "jekyll-paginate-v2", "~> 2.0"
+end
