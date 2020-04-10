@@ -1,6 +1,8 @@
-.DS_Store
-_site
+tmp
+*.rdb
+.env
 .sass-cache
 Gemfile.lock
-.bundle
-vendor/
+.DS_Store
+.jekyll-cache
+.git
