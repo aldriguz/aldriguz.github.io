@@ -10,4 +10,5 @@ group :jekyll_plugins do
     gem 'jekyll-feed'
     gem 'jemoji'
     gem "jekyll-paginate-v2", "~> 2.0"
+    gem 'jekyll-include-cache'
 end
