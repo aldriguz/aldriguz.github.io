@@ -36,9 +36,9 @@ Use this command to add clipboard
 
 Then you can paste it to the site and save it
 
-![/assets/Img0001.png](/assets/Img0001.png)
+![/assets/img/Img0001.png](/assets/img/Img0001.png)
 
-![/assets/Img0002.png](/assets/Img0002.png)
+![/assets/img/Img0002.png](/assets/img/Img0002.png)
 
 Testing your connection, you will see a welcome message
 
@@ -47,7 +47,7 @@ Testing your connection, you will see a welcome message
 # ssh -T git@github.com
 ```
 
-![/assets/Img0003.png](/assets/Img0003.png)
+![/assets/img/Img0003.png](/assets/img/Img0003.png)
 
 Last step is to add/edit config file to use ssh in mutiple sites, you need to setup as this example.
 
