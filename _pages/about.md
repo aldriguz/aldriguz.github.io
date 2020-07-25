@@ -3,26 +3,27 @@ layout: page
 title: About
 ---
 
-Hi, this is my blog site, I post about things I like. Enjoy!
+Hi, I'm Kevin and wellcome to my special blog.
 
-### Features
+I computer scientist from Peru, I wanted a lot to have my own blog since years ago to publish and share what I very much like. I like technology, computer science, algorithms, videogames (specialy Nintendo ones like Zelda) and other things.
 
-- Responsive design
-- Inline CSS
-- Anchor headings
-- Search
-- Tags & tag pages
-- Security headers (for Netlify hosting)
-- 404 page
-- Compressed CSS and HTML
-- 100/100 score on Lighthouse, Page Speed Insights & Webpagetest
-- Robots.txt
-- Atom & Json feeds
-- Sass
-- Seo optimized (Twitter cards, Facebook Open Graph, Schema.org)
-- Ultra fast (Only ~5kb of CSS)
-- Sidebar navigation
+As a fullstack developer and self-taught person I tryed some things like Laravel, PHP, Docker, Unity, Vuforia, Blender, OpenGL, OpenCL, Qt Framework. I hope to share some posts related to all I mentioned here.
 
-### Screenshot
+The things I enjoy is learn something new always, technology or another field of the life. I want to be an expertise in programming and this blogs maybe is the path to achieve this goal. Don't be surprise to find not tech or computer science related posts here...
 
-![Screenshot](screenshot.png)
+Here I list some of the things you will find on this blog, I hope you enjoy this 
+
+- Computer Science Theory
+- Programming (Tips & Tricks)
+- Development Tools
+- Travel experiences
+- Videogames
+- Computers Architecture
+- Personal things
+
+I'm currently working at *Xirect Software Solutions* as a *Software Development Manager*, Peru's office. My experience is related to manage teams and products, using Microsoft (.Net & C#) and Open Source technologies, fullstack web technologies . 
+
+University leave an important logic knowledge and some programming languages introduction like C/C++, Java, Prolog, Scheme, OpenGL, Assembly, Linux.
+
+I you want to contact, here you are:
+{% include social-media-links.html %}
