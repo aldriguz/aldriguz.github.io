@@ -5,20 +5,23 @@
 
   <title>    
     {% if page.tag or page.title %}
-        {% if page.tag %}
-          {{ page.tag | escape }}
-        {% else %}
-          {{ page.title | escape }}
-        {% endif %}
-        -
+      {% if page.tag %}
+        {{ page.tag | escape }}
+      {% else %}
+        {{ page.title | escape }}
       {% endif %}
-      {% if paginator and paginator.page and paginator.total_pages > 1 and paginator.page > 1 %}
+        |
+    {% endif %}
+    
+    {% if paginator and paginator.page and paginator.total_pages > 1 and paginator.page > 1 %}
         Page {{ paginator.page }} of {{ paginator.total_pages }} -
-      {% endif %}
-      {{ site.title | escape }}
-      {% unless page.tag or page.title %}
-        - {{ site.description | escape }}
-      {% endunless %}
+    {% endif %}
+    
+    {{ site.title | escape }}
+    
+    {% unless page.tag or page.title %}
+        | {{ site.description | escape }}
+    {% endunless %}
   </title>    
 
   <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.png">
