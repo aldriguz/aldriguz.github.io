@@ -1,10 +1,15 @@
 {% if site.data.social-media %}
-<div id="social-media">
+<div class="p h3 ph5-ns">
     {% assign sm = site.data.social-media %}
-    {% for entry in sm %}
-        {% assign key = entry | first %}
+    {% for item in sm %}
+        {% assign key = item | first %}
         {% if sm[key].id %}
-            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i class="fa {{ sm[key].fa-icon }}"></i></a>
+            <a class="link dim navy dib h2 w2 mr3 " href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}">              
+                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="fill:currentcolor">
+                    <title>{{ sm[key].title }}</title>
+                    <path d="{{ sm[key].svg }}"/>
+                </svg>
+            </a>
         {% endif %}
     {% endfor %}
 </div>

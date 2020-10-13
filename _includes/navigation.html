@@ -1,10 +1,10 @@
-<header role="banner">
-      <!--<h1 class="logo">{{ site.title }}</h1>-->
-      <nav role="navigation">
-<ul>
-   {% for item in site.data.navigation.links %}
-      <li><a href="{{ item.url }}" {% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
-   {% endfor %}
-</ul>
+<nav class="db dt-l bb bg-navy w-100 border-box pa3 ph5-l">
+   <a class="db dtc-l v-mid washed-blue link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">{{ site.title }}</a>
+   <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+      {% for item in site.data.navigation.links %}      
+         <a href="{{ item.url }}" class="link dim washed-blue f5 f4-l dib mr3 mr4-l" title="{{ item.title }}">
+            {{ item.title }}
+         </a>
+      {% endfor %}
+   </div>
 </nav>
-</header>
