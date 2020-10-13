@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: page
+title: Posts
 ---
 
-<section class="flex justify-center">
+
+<section class="posts">
     <ul>
         {% for post in site.posts %}
         <li>
