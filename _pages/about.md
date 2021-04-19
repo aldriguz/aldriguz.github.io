@@ -21,7 +21,7 @@ Here I list some of the things you will find on this blog, I hope you enjoy this
 - Computers Architecture
 - Personal things
 
-I'm currently working at *Xirect Software Solutions* as a *Software Development Manager*, Peru's office. My experience is related to manage teams and products, using Microsoft (.Net & C#) and Open Source technologies, fullstack web technologies . 
+My experience is related on design and build products, using Microsoft (.Net & C#) and Open Source technologies, fullstack web technologies. 
 
 University leave an important logic knowledge and some programming languages introduction like C/C++, Java, Prolog, Scheme, OpenGL, Assembly, Linux.
 
