@@ -1,7 +1,9 @@
 version: '3'
 services:
   jekyll:
-    image: starefossen/github-pages
+    image: jekyll
+    build: .
+    command: bundle
     environment:
       - "JEKYLL_GITHUB_TOKEN:${JEKYLL_GITHUB_TOKEN}"
     ports:
