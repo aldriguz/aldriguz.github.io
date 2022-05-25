@@ -1,9 +1,19 @@
+# Initial image source
 FROM ruby:3.1.2
 
-RUN apt-get update && apt-get install -y ruby-full build-essential zlib1g-dev
-RUN echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
-RUN echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-RUN echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
-RUN source ~/.bashrc
+# throw errors if Gemfile has been modified since Gemfile.lock
+# RUN bundle config --global frozen 1
+RUN gem install jekyll:4.2.2 bundler
 
-RUN gem install jekyll bundler
+WORKDIR /usr/src/app
+
+EXPOSE 4000
+
+# source -> destination
+COPY . .
+
+RUN bundle install
+RUN bundle exec jekyll serve
+
+# RUN gem install jekyll bundler
+# RUN bundle exec jekyll serve
