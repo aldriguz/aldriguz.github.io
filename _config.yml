@@ -1,40 +1,69 @@
-# main text of home
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments # old template has: none
+
+# Main info
 site: Blog Personal
-url: #yoururl
+url: aldriguz.github.io
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+
+# Setup
 title: Kevin Alama
 description: Software Engineer
-twitter:
-  username: #yourusername
-  card: summary
-  creator: #yourusername
+baseurl:          /
+tagline:          'A Jekyll theme'
 author:
   twitter: #yourusername
-  name: #yourusername
+  name: 'Kevin Alama'
   avatar:
   email: #youremail
   url: #yoururl
-permalink: pretty
 
-baseurl: ""
+# Social
+twitter:
+  username: aldriguz
+  card: summary
+  creator: Kevin Alama
 
-highlighter: none
+# Pagination
+paginate:         5
 
-exclude:
-  - .jekyll-cache
-  
+
+# Custom vars
+version:          2.1.0
+
+# GutHub
+github:
+  repo:           https://github.com/aldriguz
+
+# Disqus
+disqus:
+  shortname: aldriguz
+
+# Compress
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
 
+# Sass
 sass:
   sass_dir:          _sass
   style:            :compressed
+
+# Plugins
+exclude:
+  - .jekyll-cache
 
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# Unknown setup
 collections:
   pages:
     output: true
@@ -62,6 +91,3 @@ defaults:
     values:
       layout: "post"
       comments: true
-
-disqus:
-  shortname: aldriguz
