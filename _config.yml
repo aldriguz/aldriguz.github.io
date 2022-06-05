@@ -1,6 +1,6 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments # old template has: none
+#markdown:         redcarpet
+highlighter:      none # pygments # old template has: none
 
 # Main info
 site: Blog Personal
@@ -8,7 +8,7 @@ url: aldriguz.github.io
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+# relative_permalinks: true
 
 
 # Setup
