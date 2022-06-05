@@ -2,7 +2,7 @@
 site: Blog Personal
 url: #yoururl
 title: Kevin Alama
-description: Software Development Manager and Freelancer Developer
+description: Software Engineer
 twitter:
   username: #yourusername
   card: summary
@@ -33,7 +33,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
 
 collections:
   pages:
@@ -61,4 +61,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      comments: true
 
+disqus:
+  shortname: aldriguz
