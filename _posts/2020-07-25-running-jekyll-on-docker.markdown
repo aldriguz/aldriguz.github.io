@@ -4,6 +4,7 @@ title:  "Running Jekyll on Docker"
 date:   2020-07-25 10:30:00 -0500
 categories: blog learning
 tags: jekyll docker
+description: Follow this guide to be able to run Jekyll with Docker, it's fun.
 ---
 
 I will share my experience using jekyll with Github Pages, since I use windows is kind of dificult to me to have an [localhost](http://localhost) environment running Jekyll to se your blog with your eyes on your machine.

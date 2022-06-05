@@ -4,6 +4,7 @@ title:  "Instalar WxWidgets en Windows con CodeBlocks"
 date:   2020-03-29 00:00:00 -0500
 categories: security
 tags: cpp gui windows in-progress
+description: Este es un post incompleto sobre wxwidgets.
 ---
 
 1. Requerimientos importantes:
