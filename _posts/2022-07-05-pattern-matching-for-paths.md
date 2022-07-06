@@ -25,5 +25,14 @@ con el nombre de esta forma de configuracion en archivos para navegar entre dire
 **/*.txt       | Regresa todos los archivos con extensión .txt dentro de un directorio
 *.*            | Regresa todos los archivos dentro de un directorio con cualquier extensión
 **/**/*.txt   | Regresa todos los archivos con extensión .txt dentro de todos los directorios
+/dir??/        | Regresa todos los directorios con nombre de 2 caracteres dentro de un directorio
+/dir*         | Regresa todos los directorios dentro de un directorio
 
 ```
+
+
+# Referencias
+- https://stackoverflow.com/questions/17205713/what-does-mean-in-a-path
+- https://help.sumologic.com/03Send-Data/Sources/04Reference-Information-for-Sources/Using-Wildcards-in-Paths
+- https://confluence.atlassian.com/fisheye/pattern-matching-guide-960155410.html
+- https://www.abrirllave.com/cmd/comando-cd.php
