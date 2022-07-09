@@ -4,6 +4,7 @@ title:  "CrunchBang, una distro de Linux minimalista y optimizada al máximo"
 date:   2017-11-11 01:09:00 -0500
 categories: linux
 tags: linux crunchbang
+description: Una distro que me encanto es CrunchBang, ahora tiene otro nombre pero mehh...
 ---
 Una distribución de GNU/Linux que me pareció muy buena es CrunchBang, en primer lugar no está basada en interfaces muy gráficas como Unity, Gnome; sino que utiliza un gestor de ventanas llamado Openbox.
 

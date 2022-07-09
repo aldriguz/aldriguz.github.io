@@ -1,10 +1,13 @@
-<nav class="db dt-l bb bg-navy w-100 border-box pa3 ph5-l">
-   <a class="db dtc-l v-mid washed-blue link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">{{ site.title }}</a>
-   <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
-      {% for item in site.data.navigation.links %}      
-         <a href="{{ item.url }}" class="link dim washed-blue f5 f4-l dib mr3 mr4-l" title="{{ item.title }}">
-            {{ item.title }}
-         </a>
-      {% endfor %}
-   </div>
-</nav>
+<nav class="sidebar-nav">
+   <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+   {% for item in site.data.navigation.links %}
+   <a class="sidebar-nav-item{% if page.url == item.url %} active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+   {% endfor %}
+   {% for item in site.data.navigation.links %}
+   <a class="sidebar-nav-item{% if page.url == item.url %} active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+   {% endfor %}
+
+   <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
+   <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+   <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+ </nav>

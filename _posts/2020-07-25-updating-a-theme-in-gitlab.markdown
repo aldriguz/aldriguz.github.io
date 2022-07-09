@@ -4,6 +4,7 @@ title:  "Installing a new theme in GitLab (Hugo SSG)"
 date:   2020-07-25 12:45:00 -0500
 categories: blog template
 tags: gitlab git html theme
+description: This is a great alternative for free hosting for an html site.
 ---
 
 ![/assets/img/files-template.png](/assets/img/files-template.png)
