@@ -11,7 +11,7 @@ As a fullstack developer and self-taught person I tryed some things like Laravel
 
 The things I enjoy is learn something new always, technology or another field of the life. I want to be an expertise in programming and this blogs maybe is the path to achieve this goal. Don't be surprise to find not tech or computer science related posts here...
 
-Here I list some of the things you will find on this blog, I hope you enjoy this 
+Here I list some of the things you will find on this blog, I hope you enjoy this.
 
 - Computer Science Theory
 - Programming (Tips & Tricks)
