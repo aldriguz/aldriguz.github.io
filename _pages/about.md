@@ -27,3 +27,7 @@ University leave an important logic knowledge and some programming languages int
 
 I you want to contact, here you are:
 {% include social-media-links.html %}
+
+---
+Computer Science Bachellor from <a href="http://inf.unitru.edu.pe/" class="link">UNT</a>.
+I like programming in different technologies, everyday I try to learn something new. My favourite programming language is C++ and currently code in C#/.NET and PHP/Laravel.
