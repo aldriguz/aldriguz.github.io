@@ -26,5 +26,7 @@ Ahora algo sobre mi experiencia actual, trabajo bajo el ecosistema .NET principa
 Si quieres contactarme aquí tienes mis principales cuentas.
 {% include social-media-links.html %}
 
+Este blog está desarrollado en inglés pero su contenido es en español, si te interesa ver el código lo puedes encontrar en mi GitHub, así que cualquier opinión es bienvenida y si encuentras un error apreciaría que puedas reportarlo.
+
 ---
 Bachiller en Ciencias de la Computación, de la <a href="http://inf.unitru.edu.pe/" class="link">UNT</a>.
