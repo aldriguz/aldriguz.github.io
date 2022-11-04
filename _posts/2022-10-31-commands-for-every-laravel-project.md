@@ -10,9 +10,14 @@ description: Una recopilación de comandos que he usado en cada proyecto con Lar
 # Laravel
 Estos son los comandos que debemos de conocer al trabajar con Laravel.
 
-## Ejecutar migraciones
+## Crear tabla de migraciones
 ```
 php artisan migrate:install
+```
+
+## Ejecutar migraciones una a una
+```
+php artisan migrate
 ```
 
 ## Inyectar data 
@@ -25,3 +30,12 @@ php artisan db:seed
 php artisan key:generate
 ```
 
+## Agregar instalador Laravel via Composer
+```
+composer global require laravel/installer
+```
+
+## Crear app usando laravel installer
+```
+laravel new example
+```
