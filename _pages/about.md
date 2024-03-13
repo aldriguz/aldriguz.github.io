@@ -1,33 +1,34 @@
 ---
 layout: page
-title: About
+title: Sobre mí
 ---
 
-Hi, I'm Kevin and wellcome to my special blog.
+Hola, Soy Kevin Alama y bienvenido a mi blog.
 
-I computer scientist from Peru, I wanted a lot to have my own blog since years ago to publish and share what I very much like. I like technology, computer science, algorithms, videogames (specialy Nintendo ones like Zelda) and other things.
+Estudié ciencias de la computación, este blog lo llevo trabajando desde hace muchos años para tener un espacio donde compartir las cosas de mi interés así como gustos personales o proyectos en los que estoy trabajando.
 
-As a fullstack developer and self-taught person I tryed some things like Laravel, PHP, Docker, Unity, Vuforia, Blender, OpenGL, OpenCL, Qt Framework. I hope to share some posts related to all I mentioned here.
+Trabajo actualmente con NET, muchas cosas las aprendí de forma autodidacta y he probado diversos stacks tecnológicos, desde Laravel hasta Qt y Blender. Ya iré compartiendo algo de mi trabajo también.
 
-The things I enjoy is learn something new always, technology or another field of the life. I want to be an expertise in programming and this blogs maybe is the path to achieve this goal. Don't be surprise to find not tech or computer science related posts here...
+Trato de aprender algo cada día, siempre ganando un poco más de conocimiento en el area tecnológica y en alguna otra habilidad cotidiana. Quisiera alcanzar expertise como programador y creo que este blog es un buen medio para lograrlo. Pero no te sorprendas si encuentras algun post relacionado a The Legend of Zelda o algún algotirmo en particular. :) 
 
-Here I list some of the things you will find on this blog, I hope you enjoy this.
+Este es un listado MUY optimista sobre lo que quisiera tener a nivel de contenido en este pequeño blog, y espero estimado lector lo disfrutes.
 
-- Computer Science Theory
-- Programming (Tips & Tricks)
-- Development Tools
-- Travel experiences
-- Videogames
-- Computers Architecture
-- Personal things
+- Teoría de computación
+- Programación.
+- Herramientas de desarrollo.
+- Experiencias.
+- Videjuegos
+- Arquitectura de computadoras.
+- Opiniones personales.
 
-My experience is related on design and build products, using Microsoft (.Net & C#) and Open Source technologies, fullstack web technologies. 
+Ahora algo sobre mi experiencia actual, trabajo bajo el ecosistema .NET principalmente con C# y tecnologías de código abierto orientado al desarrollo web, aunque también he tocado desarrollo de aplicaciones moviles.
 
-University leave an important logic knowledge and some programming languages introduction like C/C++, Java, Prolog, Scheme, OpenGL, Assembly, Linux.
-
-I you want to contact, here you are:
+{% comment %}
+Si quieres contactarme aquí tienes mis principales cuentas.
+{% endcomment %}
 {% include social-media-links.html %}
 
+Este blog está desarrollado en inglés pero su contenido es en español, si te interesa ver el código lo puedes encontrar en mi GitHub, así que cualquier opinión es bienvenida y si encuentras un error apreciaría que puedas reportarlo.
+
 ---
-Computer Science Bachellor from <a href="http://inf.unitru.edu.pe/" class="link">UNT</a>.
-I like programming in different technologies, everyday I try to learn something new. My favourite programming language is C++ and currently code in C#/.NET and PHP/Laravel.
+Bachiller en Ciencias de la Computación, de la <a href="http://inf.unitru.edu.pe/" class="link">UNT</a>.

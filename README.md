@@ -1,7 +1,7 @@
 aldriguz.github.io 
 ==================
 
-![Jekyll Deploy](https://github.com/aldriguz/aldriguz.github.io/workflows/Jekyll%20Deploy/badge.svg?branch=master)
+![Jekyll Deploy](https://github.com/aldriguz/aldriguz.github.io/actions/workflows/dev-jekyll.yml/badge.svg)
 
 Personal blog, prod version comming soon... :)
 

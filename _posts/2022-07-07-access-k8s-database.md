@@ -6,3 +6,5 @@ categories: postgresql k8s
 tags: postgresql sql bd k8s kubernetes
 description: Esto es algo con lo que uno se topa seguido, como acceder a un servicio dentro de un cluster, lo explicamos a detalle :).
 ---
+
+# En progreso
