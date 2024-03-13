@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Sobre mí
 ---
 
 Hola, Soy Kevin Alama y bienvenido a mi blog.
